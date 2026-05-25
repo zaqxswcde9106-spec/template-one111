@@ -390,6 +390,7 @@ body{
     color: var(--main-color);
     text-decoration: none;
     display: block;
+    max-width: 100%;
 }
 .contact .contact-content .social{
     font-size: 16px;
