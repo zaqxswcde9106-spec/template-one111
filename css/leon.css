@@ -390,7 +390,6 @@ body{
     color: var(--main-color);
     text-decoration: none;
     display: block;
-    max-width: 100%;
 }
 .contact .contact-content .social{
     font-size: 16px;
@@ -410,9 +409,11 @@ body{
     margin-left: 10px;
 }
 @media (max-width: 767px){
-    .contact .contact-content .label,
-    .contact .contact-content a{
+    .contact .contact-content .label{
         font-size: 25px;
+    }
+    .contact .contact-content a{
+        font-size: 20px;
     }
 }
 /* end contact */
