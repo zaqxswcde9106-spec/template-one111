@@ -412,7 +412,9 @@ body{
     .contact .contact-content .label{
         font-size: 25px;
     }
-    .contact .contact-content a{
+}
+@media (max-width: 767px){
+.contact .contact-content a{
         font-size: 20px;
     }
 }
